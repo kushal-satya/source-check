@@ -48,21 +48,21 @@ nav ul li a:hover {
 /* Hero Section */
 #hero {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     background-color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
     color: #2c3e50;
 }
 
 #hero p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -122,30 +122,29 @@ h2 {
 
 .checklist-item ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .checklist-item ul li {
     margin-bottom: 0.8rem;
-    padding-left: 1.5rem;
+    padding-left: 0.5rem;
     position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.5rem;
-    transition: all 0.3s ease;
+    transition: background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.checklist-item ul li:hover {
+    background: #f0f8ff;
+    box-shadow: 0 1px 4px rgba(52,152,219,0.07);
 }
 
 .checklist-item ul li:before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #3498db;
-    font-weight: bold;
-}
-
-.checklist-item ul li.checked {
-    color: #27ae60;
-    text-decoration: line-through;
-    opacity: 0.8;
+    content: none;
 }
 
 .checklist-checkbox {
@@ -153,6 +152,7 @@ h2 {
     height: 18px;
     cursor: pointer;
     accent-color: #27ae60;
+    margin-right: 0.5rem;
 }
 
 /* Resources Section */
@@ -208,16 +208,20 @@ footer {
 .progress-container {
     background-color: #f0f0f0;
     border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .progress-text {
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
     color: #2c3e50;
     font-weight: 500;
+    font-size: 1rem;
 }
 
 .progress-bar {
@@ -310,6 +314,8 @@ footer {
     .progress-container {
         margin: 1rem;
         padding: 0.8rem;
+        border-radius: 8px;
+        max-width: 100%;
     }
 
     .progress-text {

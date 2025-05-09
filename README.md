@@ -1,6 +1,40 @@
 # Source Check
 
-A static informational website providing a manual guide for vetting news sources and a curated list of reliable information resources and fact-checkers related to the India-Pakistan conflict.
+Hey there!
+
+Welcome to Source Check—a little project I put together to help folks (like you and me) make sense of the news, especially when it comes to the India-Pakistan conflict. I wanted a simple, no-nonsense place to:
+
+- Remind myself how to spot reliable info
+- Keep a handy checklist for vetting sources
+- Share a few trusted news orgs and fact-checkers I actually use
+
+## Why I Made This
+
+Let's be real: the news can get messy, and it's tough to know what's legit. I got tired of second-guessing every headline, so I made this site as my own little toolkit. If it helps you too, that's awesome!
+
+## What's Here?
+
+- **Manual Source Vetting Checklist:**
+  - A list of questions I run through whenever I see something sketchy (or even when I don't).
+- **Trusted Resources:**
+  - My go-to news orgs and fact-checkers. No one's perfect, but these are a good start.
+- **Mobile-friendly:**
+  - Works on your phone, tablet, or laptop.
+- **No ads, no tracking (except Google Analytics for my own curiosity).**
+
+## Want to Use or Tweak This?
+
+Just open `index.html` in your browser. If you want to change the checklist or add your own resources, pop open the file in a text editor and go for it. It's all static, so nothing fancy or breakable.
+
+## How I Keep Track
+
+I use Google Analytics just to see if anyone else finds this useful. No personal data, no weird stuff.
+
+## That's It!
+
+If you have suggestions, or just want to say hi, feel free to open an issue or fork the repo. Otherwise, happy source checking!
+
+— Kushal
 
 ## Features
 

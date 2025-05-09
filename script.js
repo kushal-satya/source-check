@@ -96,7 +96,14 @@ function setupChecklist() {
             item.classList.add('checked');
         }
         
-        // Add click event listener
+        // Add click event listener to the whole item (not just the checkbox)
+        item.addEventListener('click', function(e) {
+            // Prevent double toggling if the click is on the checkbox itself
+            if (e.target === checkbox) return;
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+        });
+        // Add change event to the checkbox
         checkbox.addEventListener('change', function() {
             if (this.checked) {
                 item.classList.add('checked');
@@ -105,16 +112,13 @@ function setupChecklist() {
                 item.classList.remove('checked');
                 delete checkedItems[this.id];
             }
-            
             // Update progress
             const checkedCount = Object.keys(checkedItems).length;
             updateProgressBar(checkedCount, totalItems);
-            
             // Save state
             saveChecklistState(checkedItems);
         });
     });
-    
     // Initial progress update
     updateProgressBar(Object.keys(checkedItems).length, totalItems);
 }
