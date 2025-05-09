@@ -2,7 +2,7 @@
 
 Hey there!
 
-Welcome to Source Check—a little project I put together to help folks (like you and me) make sense of the news, especially when it comes to the India-Pakistan conflict. I wanted a simple, no-nonsense place to:
+Welcome to Source Check, a little project I put together to help folks (like you and me) make sense of the news, especially when it comes to the India-Pakistan conflict now in 2025. I wanted a simple, no-nonsense place to:
 
 - Remind myself how to spot reliable info
 - Keep a handy checklist for vetting sources
@@ -22,9 +22,13 @@ Let's be real: the news can get messy, and it's tough to know what's legit. I go
   - Works on your phone, tablet, or laptop.
 - **No ads, no tracking (except Google Analytics for my own curiosity).**
 
-## Want to Use or Tweak This?
+## How to Contribute or Suggest Changes
 
-Just open `index.html` in your browser. If you want to change the checklist or add your own resources, pop open the file in a text editor and go for it. It's all static, so nothing fancy or breakable.
+The trusted sources and checklist are loaded directly from the CSV files in this repo:
+- [`trusted_sources.csv`](trusted_sources.csv)
+- [`checklist.csv`](checklist.csv)
+
+If you want to edit or change anything, please send a [GitHub pull request](https://github.com/kushal-satya/source-check/pulls) or contact me on [X (Twitter)](https://x.com/kushal_satya)!
 
 ## How I Keep Track
 
@@ -115,6 +119,3 @@ source-check/
 └── README.md       # This file
 ```
 
-## Contributing
-
-Feel free to submit issues and enhancement requests! 

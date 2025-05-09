@@ -21,12 +21,23 @@
                 <li><a href="#checklist">Source Vetting Checklist</a></li>
                 <li><a href="#resources">Trusted Resources</a></li>
             </ul>
+            <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+                <span id="dark-mode-icon" aria-hidden="true"></span>
+            </button>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <h1>Source Check</h1>
+            <div class="hero-logo-title">
+                <span class="logo-icon" aria-hidden="true">
+                    <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="24" cy="24" r="22" stroke="#3498db" stroke-width="4" fill="#fff"/>
+                      <path d="M16 25.5L22 31L33 19" stroke="#27ae60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+                <h1>Source Check</h1>
+            </div>
             <p>A guide for vetting news sources and finding reliable information about the India-Pakistan conflict</p>
         </section>
 
@@ -91,20 +102,18 @@
 
         <section id="resources">
             <h2>Trusted Information Resources</h2>
-            
             <div class="resources-container">
                 <div class="resource-section">
-                    <h3>Recommended News Organizations</h3>
-                    <ul id="news-orgs-list">
-                        <!-- Will be populated by JavaScript -->
-                    </ul>
+                    <h3>Indian News Organisations</h3>
+                    <ul id="indian-news-list"></ul>
                 </div>
-
                 <div class="resource-section">
-                    <h3>Recommended Fact-Checkers & Journalists</h3>
-                    <ul id="fact-checkers-list">
-                        <!-- Will be populated by JavaScript -->
-                    </ul>
+                    <h3>International News Organisations</h3>
+                    <ul id="international-news-list"></ul>
+                </div>
+                <div class="resource-section">
+                    <h3>Fact-Checkers & Journalists</h3>
+                    <ul id="fact-checkers-list"></ul>
                 </div>
             </div>
         </section>
@@ -112,6 +121,12 @@
 
     <footer>
         <p>Source Check - A guide for reliable information about the India-Pakistan conflict</p>
+        <div class="subtle-social">
+            <a href="https://x.com/kushal_satya" target="_blank" rel="noopener noreferrer">Made by @kushal_satya</a>
+        </div>
+        <div class="edit-invite">
+            If you want to edit or change anything, please <a href="https://github.com/kushal-satya/source-check/pulls" target="_blank" rel="noopener noreferrer">send a pull request</a> or contact me on <a href="https://x.com/kushal_satya" target="_blank" rel="noopener noreferrer">X</a>.
+        </div>
     </footer>
 
     <script src="script.js"></script>
