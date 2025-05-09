@@ -4,16 +4,16 @@ Source,Is it a known and reputable outlet?
 Source,Does the author have expertise?
 Source,Is there a clear 'About Us' or contact page?
 Source,Does the URL look legitimate?
-Evidence,Are claims backed by verifiable facts, data, or direct quotes from named, credible sources?
+Evidence,"Are claims backed by verifiable facts, data, or direct quotes from named, credible sources?"
 Evidence,Or is it mostly opinion, speculation, or unsourced assertions?
-Accuracy,Can you find the same information reported by multiple, independent, reputable sources?
+Accuracy,"Can you find the same information reported by multiple, independent, reputable sources?"
 Accuracy,Are there obvious errors, typos, or outdated information?
 Accuracy,Does the date of the information make sense for the topic?
-Language & Tone,Is the language neutral and objective?
-Language & Tone,Or is it emotionally charged, sensationalized, overly biased, or using loaded/inflammatory terms?
-Language & Tone,Does the headline accurately reflect the content?
+"Language & Tone","Is the language neutral and objective?"
+"Language & Tone","Or is it emotionally charged, sensationalized, overly biased, or using loaded/inflammatory terms?"
+"Language & Tone",Does the headline accurately reflect the content?
 Purpose,Why was this content created?
-Purpose,Is it to inform, persuade, entertain, sell something, or potentially to spread propaganda or a specific agenda?
-Purpose,Are biases (political, financial, etc.) apparent?
+Purpose,"Is it to inform, persuade, entertain, sell something, or potentially to spread propaganda or a specific agenda?"
+Purpose,"Are biases (political, financial, etc.) apparent?"
 Date,Is the information current and relevant to today's context?
 Date,Or is it an old story being presented as new or out of context? 
