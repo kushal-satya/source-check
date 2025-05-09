@@ -14,22 +14,6 @@ const resources = {
     ]
 };
 
-// Visit Counter
-function updateVisitCounter() {
-    let visits = localStorage.getItem('pageVisits');
-    if (!visits) {
-        visits = 1;
-    } else {
-        visits = parseInt(visits) + 1;
-    }
-    localStorage.setItem('pageVisits', visits);
-    
-    const counterElement = document.getElementById('visit-counter');
-    if (counterElement) {
-        counterElement.textContent = visits.toLocaleString();
-    }
-}
-
 // Function to populate a list with resources
 function populateList(listId, items) {
     const list = document.getElementById(listId);
@@ -163,5 +147,4 @@ document.addEventListener('DOMContentLoaded', () => {
     populateList('fact-checkers-list', resources.factCheckers);
     setupChecklist();
     addResetButton();
-    updateVisitCounter();
 }); 
