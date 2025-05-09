@@ -204,6 +204,20 @@ footer {
     margin-top: 4rem;
 }
 
+.counter-container {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.counter-container img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Progress Bar */
 .progress-container {
     background-color: #f0f0f0;
